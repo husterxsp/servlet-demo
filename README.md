@@ -109,7 +109,7 @@ public interface Servlet {
 
 一般来说我们自己实现的servlet是继承自抽象类HTTPServlet
 
-<img width="220" src="./img/HTTPServlet.png">
+<img width="220" src="./img/httpservlet.jpg">
 
 ```java
 public abstract class HttpServlet extends GenericServlet {
