@@ -109,7 +109,7 @@ public interface Servlet {
 
 一般来说我们自己实现的servlet是继承自抽象类HTTPServlet
 
-<img width="220" src="./img/httpservlet.jpg">
+<img width="220" src="./img/httpservlet.jpg" style="display:block;margin:0 auto;">
 
 ```java
 public abstract class HttpServlet extends GenericServlet {
@@ -203,7 +203,7 @@ public abstract class HttpServlet extends GenericServlet {
 
 Filter 是介于 Web 容器和 Servlet 之间的过滤器，用于过滤未到达 Servlet 的请求或者由 Servlet 生成但还未返回响应。
 
-<img width="650" src="./img/filter.jpg">
+<img width="650" src="./img/filter.jpg" style="display:block;margin:0 auto;">
 
 ### Listener
 
